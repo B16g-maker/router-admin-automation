@@ -1,0 +1,19 @@
+{
+  "name": "router-blacklist",
+  "version": "1.0.0",
+  "description": "Ruijie EG105G-P-L 路由器黑名单自动化管理工具（基于 Playwright）",
+  "main": "scripts/blacklist.js",
+  "scripts": {
+    "list":      "node scripts/blacklist.js list",
+    "blacklist": "node scripts/blacklist.js blacklist",
+    "ban":       "node scripts/blacklist.js ban",
+    "unban":     "node scripts/blacklist.js unban",
+    "setup":     "npx playwright install chromium"
+  },
+  "keywords": ["router", "ruijie", "reyee", "blacklist", "playwright", "automation"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.59.1"
+  }
+}
